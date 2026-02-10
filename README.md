@@ -1,6 +1,7 @@
 # Optimización MILP de Comunidad Energética Local
 
 Este repositorio contiene un modelo de optimización matemática basado en Programación Lineal Entera Mixta (MILP) desarrollado en Python para el dimensionamiento y gestión operativa de una comunidad energética de 7 consumidores (industriales y residenciales).
+El código principal del modelo y la ejecución del solver se encuentran en el archivo Modelo_Optimizacion_MILP.ipynb
 
 ## Resumen del Proyecto
 * Herramientas: Python, Pyomo, Solver HiGHS.
