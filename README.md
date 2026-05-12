@@ -185,6 +185,7 @@ pip install -r requirements.txt
 ├── Balance_EMS_Flexible_Optimizado_Limpio.png
 ├── Comparacion_Flexibilidad_Fija_vs_Optimizada.png
 ├── Horario_Carga_Flexible.png
+├── requirements.txt
 ├── LICENCE
 └── README.md
 ```
