@@ -163,27 +163,11 @@ La extensión EMS muestra que, en escenarios de alta penetración FV, la flexibi
 ## Ejecución
 
 1. Clonar el repositorio.
-2. Abrir uno de los notebooks:
-   * `Modelo_Optimizacion_MILP.ipynb`
-   * `Modelo_EMS_Excedentes_FV_Esparragosa.ipynb`
-3. Ejecutar las celdas en orden.
-
-### Requisitos principales
-
-* Python 3.11 o 3.12 recomendado
-* Pyomo
-* HiGHS
-* pandas
-* numpy
-* matplotlib
-* Jupyter
-
-### Instalación rápida con pip
-
-La forma más simple de preparar el entorno es instalar directamente las dependencias principales:
+2. Crear un entorno de Python. Se recomienda Python 3.11 o 3.12.
+3. Instalar las dependencias:
 
 ```bash
-pip install pyomo highspy pandas numpy matplotlib jupyter
+pip install -r requirements.txt
 ```
 
 ## Estructura actual del repositorio
