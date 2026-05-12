@@ -160,16 +160,6 @@ El modelo base muestra cómo dimensionar una comunidad energética con FV y BESS
 
 La extensión EMS muestra que, en escenarios de alta penetración FV, la flexibilidad de demanda puede aportar valor operativo. Manteniendo constante la energía semanal consumida por la EDAR, el EMS desplaza la carga hacia horas más favorables, reduciendo la compra de red, disminuyendo el excedente exportado y mejorando el coste total frente a una programación fija.
 
-## Tecnologías utilizadas
-
-* Python
-* Pyomo
-* HiGHS
-* pandas
-* numpy
-* matplotlib
-* MILP
-
 ## Ejecución
 
 1. Clonar el repositorio.
@@ -177,7 +167,24 @@ La extensión EMS muestra que, en escenarios de alta penetración FV, la flexibi
    * `Modelo_Optimizacion_MILP.ipynb`
    * `Modelo_EMS_Excedentes_FV_Esparragosa.ipynb`
 3. Ejecutar las celdas en orden.
-4. Requisitos principales: Python, Pyomo, HiGHS, pandas, numpy y matplotlib.
+
+### Requisitos principales
+
+* Python 3.11 o 3.12 recomendado
+* Pyomo
+* HiGHS
+* pandas
+* numpy
+* matplotlib
+* Jupyter
+
+### Instalación rápida con pip
+
+La forma más simple de preparar el entorno es instalar directamente las dependencias principales:
+
+```bash
+pip install pyomo highspy pandas numpy matplotlib jupyter
+```
 
 ## Estructura actual del repositorio
 
