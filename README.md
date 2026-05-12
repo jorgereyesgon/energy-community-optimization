@@ -147,6 +147,13 @@ La siguiente figura muestra la operación semanal completa del EMS en el escenar
 
 ![Impacto Económico Anual](Impacto_Economico_Anual_Helsinki.png)
 
+## Limitaciones y posibles mejoras
+* El escenario FV x3,0 se usa como análisis de sensibilidad operativa, no como redimensionamiento económico completo de la instalación.
+* La exportación de excedentes está permitida aunque se valore a 0 €/kWh.
+* No se modela todavía el curtailment como variable separada.
+* El modelo es determinista y trabaja sobre semanas representativas.
+* Como extensiones futuras, se podría incorporar degradación de batería, predicción de demanda/FV, operación rolling horizon, MPC o restricciones internas de red.
+
 ## Conclusiones
 
 El modelo base muestra cómo dimensionar una comunidad energética con FV y BESS considerando costes anualizados, señal de precios, peajes e impuestos. Además, el criterio social-estático permite mantener un ahorro porcentual común entre consumidores, evitando que la optimización puramente económica perjudique a determinados perfiles.
@@ -175,7 +182,6 @@ La extensión EMS muestra que, en escenarios de alta penetración FV, la flexibi
 ## Estructura actual del repositorio
 
 ```text
-.
 ├── data/
 ├── Modelo_Optimizacion_MILP.ipynb
 ├── Modelo_EMS_Excedentes_FV_Esparragosa.ipynb
@@ -190,3 +196,6 @@ La extensión EMS muestra que, en escenarios de alta penetración FV, la flexibi
 ├── Horario_Carga_Flexible.png
 ├── LICENCE
 └── README.md
+```
+---
+Contacto: jreyesmavs@gmail.com | [LinkedIn](https://www.linkedin.com/in/jorgereyesgon)
